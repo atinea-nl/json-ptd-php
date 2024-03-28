@@ -1,0 +1,138 @@
+{
+    "test_name" : "ov.ptd_var",
+    "test_cases" : [
+        {
+            "type" : {
+                "car_type" : { "ov.ptd_var" : { 
+                    "gasoline" : { "ov.with_param" : { "ov.ptd_rec" : { 
+                        "fuel_consumption" : { "ov.ptd_double" : null },
+                        "transmission_type" : { "ov.ptd_utf8" : null }
+                    }}},
+                    "electric" : { "ov.with_param" : { "ov.ptd_rec" : { 
+                        "power_consumption" : { "ov.ptd_double" : null },
+                        "charging_power" : { "ov.ptd_int" : null }
+                    }}},
+                    "none" : { "ov.no_param" : null }
+                }}
+            },
+            "value" : {
+                "ov.gasoline" : { "fuel_consumption" : 10.5, "transmission_type" : "automatic" }
+            },
+            "validation" : true
+        },
+        {
+            "type" : {
+                "car_type" : { "ov.ptd_var" : { 
+                    "gasoline" : { "ov.with_param" : { "ov.ptd_rec" : { 
+                        "fuel_consumption" : { "ov.ptd_double" : null },
+                        "transmission_type" : { "ov.ptd_utf8" : null }
+                    }}},
+                    "electric" : { "ov.with_param" : { "ov.ptd_rec" : { 
+                        "power_consumption" : { "ov.ptd_double" : null },
+                        "charging_power" : { "ov.ptd_int" : null }
+                    }}},
+                    "none" : { "ov.no_param" : null }
+                }}
+            },
+            "value" : {
+                "ov.electric" : { "power_consumption" : 18.1, "charging_power" : 250 }
+            },
+            "validation" : true
+        },
+        {
+            "type" : {
+                "car_type" : { "ov.ptd_var" : { 
+                    "gasoline" : { "ov.with_param" : { "ov.ptd_rec" : { 
+                        "fuel_consumption" : { "ov.ptd_double" : null },
+                        "transmission_type" : { "ov.ptd_utf8" : null }
+                    }}},
+                    "electric" : { "ov.with_param" : { "ov.ptd_rec" : { 
+                        "power_consumption" : { "ov.ptd_double" : null },
+                        "charging_power" : { "ov.ptd_int" : null }
+                    }}},
+                    "none" : { "ov.no_param" : null }
+                }}
+            },
+            "value" : {
+                "ov.none" : null
+            },
+            "validation" : true
+        },
+        {
+            "type" : {
+                "car_type" : { "ov.ptd_var" : { 
+                    "gasoline" : { "ov.with_param" : { "ov.ptd_rec" : { 
+                        "fuel_consumption" : { "ov.ptd_double" : null },
+                        "transmission_type" : { "ov.ptd_utf8" : null }
+                    }}},
+                    "electric" : { "ov.with_param" : { "ov.ptd_rec" : { 
+                        "power_consumption" : { "ov.ptd_double" : null },
+                        "charging_power" : { "ov.ptd_int" : null }
+                    }}},
+                    "none" : { "ov.no_param" : null }
+                }}
+            },
+            "value" : {
+                "ov.electric" : { "power_consumption" : "30", "charging_power" : 250 }
+            },
+            "validation" : false
+        },
+        {
+            "type" : {
+                "car_type" : { "ov.ptd_var" : { 
+                    "gasoline" : { "ov.with_param" : { "ov.ptd_rec" : { 
+                        "fuel_consumption" : { "ov.ptd_double" : null },
+                        "transmission_type" : { "ov.ptd_utf8" : null }
+                    }}},
+                    "electric" : { "ov.with_param" : { "ov.ptd_rec" : { 
+                        "power_consumption" : { "ov.ptd_double" : null },
+                        "charging_power" : { "ov.ptd_int" : null }
+                    }}},
+                    "none" : { "ov.no_param" : null }
+                }}
+            },
+            "value" : {
+                "ov.elec" : { "power_consumption" : 30, "charging_power" : 250 }
+            },
+            "validation" : false
+        },
+        {
+            "type" : {
+                "car_type" : { "ov.ptd_var" : { 
+                    "gasoline" : { "ov.with_param" : { "ov.ptd_rec" : { 
+                        "fuel_consumption" : { "ov.ptd_double" : null },
+                        "transmission_type" : { "ov.ptd_utf8" : null }
+                    }}},
+                    "electric" : { "ov.with_param" : { "ov.ptd_rec" : { 
+                        "power_consumption" : { "ov.ptd_double" : null },
+                        "charging_power" : { "ov.ptd_int" : null }
+                    }}},
+                    "none" : { "ov.no_param" : null }
+                }}
+            },
+            "value" : {
+                "ov.none" : { "power_consumption" : 30, "charging_power" : 250 }
+            },
+            "validation" : false
+        },
+        {
+            "type" : {
+                "car_type" : { "ov.ptd_var" : { 
+                    "gasoline" : { "ov.with_param" : { "ov.ptd_rec" : { 
+                        "fuel_consumption" : { "ov.ptd_double" : null },
+                        "transmission_type" : { "ov.ptd_utf8" : null }
+                    }}},
+                    "electric" : { "ov.with_param" : { "ov.ptd_rec" : { 
+                        "power_consumption" : { "ov.ptd_double" : null },
+                        "charging_power" : { "ov.ptd_int" : null }
+                    }}},
+                    "none" : { "ov.no_param" : null }
+                }}
+            },
+            "value" : {
+                "ov.electric" : null
+            },
+            "validation" : false
+        }
+    ]
+}

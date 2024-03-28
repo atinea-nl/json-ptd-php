@@ -1,0 +1,47 @@
+{
+    "test_name" : "ov.ptd_utf8",
+    "test_cases" : [
+        {
+            "type" : {
+                "item_description" : { "ov.ptd_utf8" : null }
+            },
+            "value" : "Wooden ring bell",
+            "validation" : true
+        },
+        {
+            "type" : {
+                "item_description" : { "ov.ptd_utf8" : null }
+            },
+            "value" : "1234",
+            "validation" : true
+        },
+        {
+            "type" : {
+                "item_description" : { "ov.ptd_utf8" : null }
+            },
+            "value" : 1234,
+            "validation" : false
+        },
+        {
+            "type" : {
+                "item_description" : { "ov.ptd_utf8" : null }
+            },
+            "value" : true,
+            "validation" : false
+        },
+        {
+            "type" : {
+                "item_description" : { "ov.ptd_utf8" : null }
+            },
+            "value" : "Wooden ring bell",
+            "validation" : true
+        },
+        {
+            "type" : {
+                "item_description" : { "ov.ptd_utf8" : null }
+            },
+            "value" : "",
+            "validation" : true
+        }
+    ]
+}

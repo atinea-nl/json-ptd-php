@@ -1,0 +1,107 @@
+{
+    "test_name" : "ov.ptd_rec",
+    "test_cases" : [
+        {
+            "type" : {
+                "item" : { "ov.ptd_rec" : { 
+                    "item_description" : { "ov.ptd_utf8" : null },
+                    "quantity" : { "ov.ptd_int" : null },
+                    "net_price" : { "ov.ptd_double" : null },
+                    "vat_rate" : { "ov.ptd_double" : null }
+                }}
+            },
+            "value" : {
+                "item_description" : "Wooden ring bell",
+                "quantity" : 1,
+                "net_price" : 78.55,
+                "vat_rate" : 20.00
+            },
+            "validation" : true
+        },
+        {
+            "type" : {
+                "item" : { "ov.ptd_rec" : { 
+                    "item_description" : { "ov.ptd_utf8" : null },
+                    "quantity" : { "ov.ptd_int" : null },
+                    "net_price" : { "ov.ptd_double" : null },
+                    "vat_rate" : { "ov.ptd_double" : null }
+                }}
+            },
+            "value" : {
+                "item_description" : "Wooden ring bell",
+                "quantity" : 1,
+                "net_price" : "78.55",
+                "vat_rate" : 20.00
+            },
+            "validation" : false
+        },
+        {
+            "type" : {
+                "item" : { "ov.ptd_rec" : { 
+                    "item_description" : { "ov.ptd_utf8" : null },
+                    "quantity" : { "ov.ptd_int" : null },
+                    "net_price" : { "ov.ptd_double" : null },
+                    "vat_rate" : { "ov.ptd_double" : null }
+                }}
+            },
+            "value" : {
+                "item_description" : false,
+                "quantity" : "1",
+                "net_price" : "78.55",
+                "vat_rate" : "20.00"
+            },
+            "validation" : false
+        },
+        {
+            "type" : {
+                "item" : { "ov.ptd_rec" : { 
+                    "item_description" : { "ov.ptd_utf8" : null },
+                    "quantity" : { "ov.ptd_int" : null },
+                    "net_price" : { "ov.ptd_double" : null },
+                    "vat_rate" : { "ov.ptd_double" : null }
+                }}
+            },
+            "value" : {
+                "item_description" : "Wooden ring bell",
+                "quantity" : 1,
+                "net_price" : 3.555555,
+                "vat_rate" : 1432.0
+            },
+            "validation" : true
+        },
+        {
+            "type" : {
+                "item" : { "ov.ptd_rec" : { 
+                    "item_description" : { "ov.ptd_utf8" : null },
+                    "quantity" : { "ov.ptd_int" : null },
+                    "net_price" : { "ov.ptd_double" : null },
+                    "vat_rate" : { "ov.ptd_double" : null }
+                }}
+            },
+            "value" : {
+                "item_description" : "Wooden ring bell",
+                "quantity" : 1,
+                "net_price" : 78.55,
+                "vat_rate" : 20.00,
+                "new_field" : 20.00
+            },
+            "validation" : false
+        },
+        {
+            "type" : {
+                "item" : { "ov.ptd_rec" : { 
+                    "item_description" : { "ov.ptd_utf8" : null },
+                    "quantity" : { "ov.ptd_int" : null },
+                    "net_price" : { "ov.ptd_double" : null },
+                    "vat_rate" : { "ov.ptd_double" : null }
+                }}
+            },
+            "value" : {
+                "item_description" : "Wooden ring bell",
+                "quantity" : 1,
+                "vat_rate" : 20.00
+            },
+            "validation" : false
+        }
+    ]
+}

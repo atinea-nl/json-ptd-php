@@ -1,0 +1,61 @@
+{
+    "test_name" : "ov.ptd_int",
+    "test_cases" : [
+        {
+            "type" : {
+                "quantity" : { "ov.ptd_int" : null }
+            },
+            "value" : 123,
+            "validation" : true
+        },
+        {
+            "type" : {
+                "quantity" : { "ov.ptd_int" : null }
+            },
+            "value" : 0,
+            "validation" : true
+        },
+        {
+            "type" : {
+                "quantity" : { "ov.ptd_int" : null }
+            },
+            "value" : 12.0,
+            "validation" : false
+        },
+        {
+            "type" : {
+                "quantity" : { "ov.ptd_int" : null }
+            },
+            "value" : 12.01,
+            "validation" : false
+        },
+        {
+            "type" : {
+                "quantity" : { "ov.ptd_int" : null }
+            },
+            "value" : 123123123123,
+            "validation" : true
+        },
+        {
+            "type" : {
+                "quantity" : { "ov.ptd_int" : null }
+            },
+            "value" : -123123756,
+            "validation" : true
+        },
+        {
+            "type" : {
+                "quantity" : { "ov.ptd_int" : null }
+            },
+            "value" : "1",
+            "validation" : false
+        },
+        {
+            "type" : {
+                "quantity" : { "ov.ptd_int" : null }
+            },
+            "value" : "0",
+            "validation" : false
+        }
+    ]
+}

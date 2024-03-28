@@ -1,0 +1,40 @@
+{
+    "test_name" : "ov.ptd_bool",
+    "test_cases" : [
+        {
+            "type" : {
+                "is_delivered" : { "ov.ptd_bool" : null }
+            },
+            "value" : false,
+            "validation" : true
+        },
+        {
+            "type" : {
+                "is_delivered" : { "ov.ptd_bool" : null }
+            },
+            "value" : true,
+            "validation" : true
+        },
+        {
+            "type" : {
+                "is_delivered" : { "ov.ptd_bool" : null }
+            },
+            "value" : "false",
+            "validation" : false
+        },
+        {
+            "type" : {
+                "is_delivered" : { "ov.ptd_bool" : null }
+            },
+            "value" : 0,
+            "validation" : false
+        },
+        {
+            "type" : {
+                "is_delivered" : { "ov.ptd_bool" : null }
+            },
+            "value" : 1,
+            "validation" : false
+        }
+    ]
+}

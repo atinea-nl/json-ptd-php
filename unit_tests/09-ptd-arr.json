@@ -1,0 +1,54 @@
+{
+    "test_name" : "ov.ptd_arr",
+    "test_cases" : [
+        {
+            "type" : {
+                "items" : { "ov.ptd_arr" : { "ov.ptd_utf8" : null }}
+            },
+            "value" : ["Wooden ring bell", "Wooden mailbox (white)", "Wooden fence (white)"],
+            "validation" : true
+        },
+        {
+            "type" : {
+                "items" : { "ov.ptd_arr" : { "ov.ptd_utf8" : null }}
+            },
+            "value" : [3, "Wooden mailbox (white)", "Wooden fence (white)"],
+            "validation" : false
+        },
+        {
+            "type" : {
+                "items" : {  "ov.ptd_arr" : { "ov.ptd_utf8" : null }}
+            },
+            "value" : [31, 6453645, 123],
+            "validation" : false
+        },
+        {
+            "type" : {
+                "items" : { "ov.ptd_arr" : { "ov.ptd_utf8" : null }}
+            },
+            "value" : [],
+            "validation" : false
+        },
+        {
+            "type" : {
+                "items" : { "ov.ptd_arr" : { "ov.ptd_utf8" : null }}
+            },
+            "value" : ["Wooden ring bell"],
+            "validation" : true
+        },
+        {
+            "type" : {
+                "items" : { "ov.ptd_arr" : { "ov.ptd_utf8" : null }}
+            },
+            "value" : [true, "Wooden mailbox (white)", "Wooden fence (white)"],
+            "validation" : false
+        },
+        {
+            "type" : {
+                "items" : {  "ov.ptd_arr" : { "ov.ptd_int" : null }}
+            },
+            "value" : [31, 6453645, 123],
+            "validation" : true
+        }
+    ]
+}

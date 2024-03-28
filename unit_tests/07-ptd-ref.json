@@ -1,0 +1,61 @@
+{
+    "test_name" : "ov.ptd_ref",
+    "test_cases" : [
+        {
+            "type" : {
+                "sender" : { "ov.ptd_ref" : "company_type" },
+                "company_type" : { "ov.ptd_utf8" : null }
+            },
+            "value" : "Ringwood",
+            "validation" : true
+        },
+        {
+            "type" : {
+                "sender" : { "ov.ptd_ref" : "company_type" },
+                "company_type" : { "ov.ptd_utf8" : null }
+            },
+            "value" : 432,
+            "validation" : false
+        },
+        {
+            "type" : {
+                "sender" : { "ov.ptd_ref" : "company_type" },
+                "company_type" : { "ov.ptd_utf8" : null }
+            },
+            "value" : "",
+            "validation" : true
+        },
+        {
+            "type" : {
+                "sender" : { "ov.ptd_ref" : "company_type" },
+                "company_type" : { "ov.ptd_int" : null }
+            },
+            "value" : 432461,
+            "validation" : true
+        },
+        {
+            "type" : {
+                "sender" : { "ov.ptd_ref" : "company_type" },
+                "company_type" : { "ov.ptd_int" : null }
+            },
+            "value" : "432461",
+            "validation" : false
+        },
+        {
+            "type" : {
+                "sender" : { "ov.ptd_ref" : "company_type" },
+                "company_type" : { "ov.ptd_bool" : null }
+            },
+            "value" : false,
+            "validation" : true
+        },
+        {
+            "type" : {
+                "sender" : { "ov.ptd_ref" : "company_type" },
+                "company_type" : { "ov.ptd_bool" : null }
+            },
+            "value" : "false",
+            "validation" : false
+        }
+    ]
+}

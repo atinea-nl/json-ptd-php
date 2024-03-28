@@ -1,0 +1,40 @@
+{
+    "test_name" : "ov.ptd_bytearray",
+    "test_cases" : [
+        {
+            "type" : {
+                "item_description" : { "ov.ptd_bytearray" : null }
+            },
+            "value" : "576f6f64656e2072696e672062656c6c",
+            "validation" : true
+        },
+        {
+            "type" : {
+                "item_description" : { "ov.ptd_bytearray" : null }
+            },
+            "value" : "hafjiousdyh788732y4928",
+            "validation" : true
+        },
+        {
+            "type" : {
+                "item_description" : { "ov.ptd_bytearray" : null }
+            },
+            "value" : "576f6f64656e2072696e672062656c6cą",
+            "validation" : false
+        },
+        {
+            "type" : {
+                "item_description" : { "ov.ptd_bytearray" : null }
+            },
+            "value" : "",
+            "validation" : true
+        },
+        {
+            "type" : {
+                "item_description" : { "ov.ptd_bytearray" : null }
+            },
+            "value" : "ąćźżóę",
+            "validation" : false
+        }
+    ]
+}

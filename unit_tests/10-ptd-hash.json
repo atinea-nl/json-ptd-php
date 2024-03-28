@@ -1,0 +1,93 @@
+{
+    "test_name" : "ov.ptd_hash",
+    "test_cases" : [
+        {
+            "type" : {
+                "car_mileage" : { "ov.ptd_hash" : { "ov.ptd_double" : null }}
+            },
+            "value" : {
+                "ww15151" : 105267.12,
+                "wb56b12" : 232300.00,
+                "wz0012a" : 50764.97
+            },
+            "validation" : true
+        },
+        {
+            "type" : {
+                "car_mileage" : { "ov.ptd_hash" : { "ov.ptd_int" : null }}
+            },
+            "value" : {
+                "ww15151" : 105267.12,
+                "wb56b12" : 232300.00,
+                "wz0012a" : 50764.97
+            },
+            "validation" : false
+        },
+        {
+            "type" : {
+                "car_mileage" : { "ov.ptd_hash" : { "ov.ptd_int" : null }}
+            },
+            "value" : {
+                "ww15151" : 105267,
+                "wb56b12" : 232300,
+                "wz0012a" : 50764
+            },
+            "validation" : true
+        },
+        {
+            "type" : {
+                "car_mileage" : { "ov.ptd_hash" : { "ov.ptd_utf8" : null }}
+            },
+            "value" : {
+                "ww15151" : "105267.12",
+                "wb56b12" : "232300.00",
+                "wz0012a" : "tsdfdsfds"
+            },
+            "validation" : true
+        },
+        {
+            "type" : {
+                "car_mileage" : { "ov.ptd_hash" : { "ov.ptd_double" : null }}
+            },
+            "value" : {
+                "ww15151" : "testdfsa",
+                "wb56b12" : 232300.00,
+                "wz0012a" : 50764.97
+            },
+            "validation" : false
+        },
+        {
+            "type" : {
+                "car_mileage" : { "ov.ptd_hash" : { "ov.ptd_double" : null }}
+            },
+            "value" : {
+                "ww15151" : 105267,
+                "wb56b12" : 232300.00,
+                "wz0012a" : 50764.97
+            },
+            "validation" : false
+        },
+        {
+            "type" : {
+                "car_mileage" : { "ov.ptd_hash" : { "ov.ptd_bool" : null }}
+            },
+            "value" : {
+                "r1" : true,
+                "r2" : false,
+                "r3" : true
+            },
+            "validation" : true
+        },
+        {
+            "type" : {
+                "car_mileage" : { "ov.ptd_hash" : { "ov.ptd_bool" : null }}
+            },
+            "value" : {
+                "r1" : true,
+                "r2" : 0,
+                "r3" : true
+            },
+            "validation" : false
+        }
+    ]
+}

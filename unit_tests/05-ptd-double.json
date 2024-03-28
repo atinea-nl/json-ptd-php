@@ -1,0 +1,47 @@
+{
+    "test_name" : "ov.ptd_double",
+    "test_cases" : [
+        {
+            "type" : {
+                "net_price" : { "ov.ptd_double" : null }
+            },
+            "value" : 123.00,
+            "validation" : true
+        },
+        {
+            "type" : {
+                "net_price" : { "ov.ptd_double" : null }
+            },
+            "value" : 1543223.54325432,
+            "validation" : true
+        },
+        {
+            "type" : {
+                "net_price" : { "ov.ptd_double" : null }
+            },
+            "value" : 0.0,
+            "validation" : true
+        },
+        {
+            "type" : {
+                "net_price" : { "ov.ptd_double" : null }
+            },
+            "value" : 1.0,
+            "validation" : true
+        },
+        {
+            "type" : {
+                "net_price" : { "ov.ptd_double" : null }
+            },
+            "value" : 1,
+            "validation" : false
+        },
+        {
+            "type" : {
+                "net_price" : { "ov.ptd_double" : null }
+            },
+            "value" : "1.31",
+            "validation" : false
+        }
+    ]
+}

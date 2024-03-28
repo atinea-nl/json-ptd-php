@@ -1,0 +1,75 @@
+{
+    "test_name" : "ov.ptd_decimal",
+    "test_cases" : [
+        {
+            "type" : {
+                "vat_rate" : { "ov.ptd_decimal" : { "size" : 4, "scale" : 2 }}
+            },
+            "value" : 10.50,
+            "validation" : true
+        },
+        {
+            "type" : {
+                "vat_rate" : { "ov.ptd_decimal" : { "size" : 5, "scale" : 3 }}
+            },
+            "value" : 10.50,
+            "validation" : true
+        },
+        {
+            "type" : {
+                "vat_rate" : { "ov.ptd_decimal" : { "size" : 3, "scale" : 2 }}
+            },
+            "value" : 10.50,
+            "validation" : false
+        },
+        {
+            "type" : {
+                "vat_rate" : { "ov.ptd_decimal" : { "size" : 2, "scale" : 2 }}
+            },
+            "value" : 10.50,
+            "validation" : false
+        },
+        {
+            "type" : {
+                "vat_rate" : { "ov.ptd_decimal" : { "size" : 2, "scale" : 2 }}
+            },
+            "value" : 0.22,
+            "validation" : true
+        },
+        {
+            "type" : {
+                "vat_rate" : { "ov.ptd_decimal" : { "size" : 2, "scale" : 2 }}
+            },
+            "value" : 0.2,
+            "validation" : true
+        },
+        {
+            "type" : {
+                "vat_rate" : { "ov.ptd_decimal" : { "size" : 4, "scale" : 2 }}
+            },
+            "value" : "10.50",
+            "validation" : false
+        },
+        {
+            "type" : {
+                "vat_rate" : { "ov.ptd_decimal" : { "size" : 4, "scale" : 0 }}
+            },
+            "value" : 1244.0,
+            "validation" : true
+        },
+        {
+            "type" : {
+                "vat_rate" : { "ov.ptd_decimal" : { "size" : 4, "scale" : 0 }}
+            },
+            "value" : 144.1,
+            "validation" : false
+        },
+        {
+            "type" : {
+                "vat_rate" : { "ov.ptd_decimal" : { "size" : 4, "scale" : 2 }}
+            },
+            "value" : 22.22,
+            "validation" : true
+        }
+    ]
+}
